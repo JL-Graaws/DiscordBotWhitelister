@@ -106,16 +106,4 @@ The three `PTERO_` variables are all-or-nothing. They do not work if the panel s
 
 Timing values such as `ACK_TIMEOUT`, `LIVENESS_WINDOW`, `SYNC_INTERVAL` and `PROBE_INTERVAL` can be left at their defaults.
 
-## Files not to commit
 
-Add these to `.gitignore`:
-
-```
-.env
-linked_players.db
-__pycache__/
-```
-
-- `.env` contains your bot token.
-- `linked_players.db` links Discord user IDs to Minecraft names, which is personal data.
-- If a token is ever committed, reset it in the Developer Portal right away.
