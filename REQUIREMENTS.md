@@ -107,3 +107,4 @@ The three `PTERO_` variables are all-or-nothing. They do not work if the panel s
 Timing values such as `ACK_TIMEOUT`, `LIVENESS_WINDOW`, `SYNC_INTERVAL` and `PROBE_INTERVAL` can be left at their defaults.
 
 
+Enjoy!
